@@ -1,0 +1,28 @@
+CEC CS 18 C33
+Joshena Joseph
+
+--------------------------------
+#1: Aim/task Linux Familarisation
+---------------------------------
+Command/Shell script/Program name
+WORK FILE
+work.txt
+report.txt
+---------------------------------
+
+Input: (If relevant)
+abc.txt
+number.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+Commands executed successfully
+
+Remarks if any:
+
+Linux commands familarisation
+
+
+
+

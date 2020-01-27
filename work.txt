@@ -1,0 +1,145 @@
+Script started on Monday 27 January 2020 10:35:39 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ script report.txt
+Script started, file is report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ gedit report.txt
+
+Failed to register: Timeout was reached
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ 
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ ge[K[Kscript report.txt
+Script started, file is report.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ gedit report.txt
+Failed to register: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ gedit report [K.txt
+
+^C
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ history
+    1  cd
+    2  mkdir cs232
+    3  redir cs232
+    4  mkdir ceccs18c37
+    5  cd ceccs18c37
+    6  mkdir cs232
+    7  cd cs232
+    8  git init
+    9  history
+   10  ls
+   11  git pull http://github.com/ceccs18c37/cs232
+   12  export http_proxy=http://192.168.0.2:3128
+   13  export https_proxy=http://192.168.0.2:3128
+   14  git init
+   15  git pull http://github.com/ceccs18c37/cs232
+   16  ls -a
+   17  sudo mkdr nandu
+   18  mkdr nandu
+   19  mkdir nandu
+   20  rm nandu
+   21  sudo rm nandu
+   22  cd
+   23  cd /home
+   24  cd /home/music
+   25  cd /home
+   26  mkdir a a a a 
+   27  mkdir a b c d e f
+   28  cd
+   29  ma pwd
+   30  manpwd
+   31  man pwd
+   32  man cat
+   33  cd /boot
+   34  cd boot
+   35  cd /etc
+   36  man touch
+   37  man cp
+   38  man mv
+   39  man who
+   40  man cmp
+   41  ls
+   42  ls disk
+   43  man purge
+   44  man apt
+   45  man get
+   46  man apt
+   47  apt-get -v amazon
+   48  man get
+   49  apt-get -h amazon
+   50  apt-get -h 
+   51  mana
+   52  apt-get -h terminal
+   53  man rm
+   54  cd /home
+   55  mkdir 1 2 3 4 5
+   56  mkdir a b c
+   57  pwd
+   58  mkdir abc
+   59  rm abc
+   60  rmdir abc
+   61  rm a
+   62  rm --d
+   63  rm --help
+   64  rm --dir
+   65  rm -d
+   66  rm --help
+   67  rm -d
+   68  rm-d
+   69  rm --help
+   70  mv a
+   71  mv --help
+   72  rm
+   73  rm --dir
+   74  rm a
+   75  rm --help
+   76  rmdir --dir
+   77  rmdir -d
+   78  rm --help
+   79  rmdir -d
+   80  rmdir --dir
+   81  rm --dir
+   82  rm -d a
+   83  rm b
+   84  rm --help
+   85  rm -r
+   86  sudo rm -d
+   87  cd /home
+   88  cd /boot
+   89  cd boot
+   90  pwd
+   91  mkdir 2701
+   92  cd
+   93  cd2701
+   94  cd
+   95  cd 2701
+   96  script work.txt
+   97  ls
+   98  cat abc.txt
+   99  ls
+  100  cat >abc.txt
+  101  pwd
+  102  cd 2701
+  103  ls
+  104  cat>abc.txt
+  105  cd 2701
+  106  sort -n fn
+  107  cat >abc.txt
+  108  cat sort.txt
+  109  cat>sort.txt
+  110  sort -n sort
+  111  sort -n sort.c
+  112  sort -n sort.txt
+  113  cat>abc.txt
+  114  grep "punalur" abc.txt
+  115  cat>ac.txt
+  116  paste ac.txt abc.txt
+  117  exit
+  118  history
+  119  cd 2701
+  120  cat abc.txt
+  121  cat sort.txt
+  122  grep "punalur" abc.txt
+  123  paste ac.txt abc.txt
+  124  exit
+  125  history
+  126  script report.txt
+  127  gedit report.txt
+  128  history
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/2701[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/2701[00m$ gedit report.txt
+]0;student@ceclab2-System-
