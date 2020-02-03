@@ -1,0 +1,215 @@
+Script started on Monday 03 February 2020 10:59:33 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ ssh sc[Ks18c33@192.18[K68 .0.30[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C18c33@192.168.0[1P.30[A]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ [C[C[C[Ccs18c33@192.168.0.30[A]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c33@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 10:35:21 2020 from 192.168.0.132
+$ ls
+0302  2701  examples.desktop
+$ cd/  /
+$ ls
+bin    core  home	 lib32	     media  proc  sbin	sys  var
+boot   dev   initrd.img  lib64	     mnt    root  snap	tmp  vmlinuz
+cdrom  etc   lib	 lost+found  opt    run   srv	usr
+$ exiy t
+Connection to 192.168.0.30 closed.
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ e[Kscp work.txt cs 18c [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kcs18c3 3[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt cs18c33 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@a[1@bc.txt cs18c33 [A]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+@192.168.30:020===[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat abc.t[K[K>[K[K[K[K>abc.txt
+abccc
+ssss
+keep it
+hhj
+kl
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ cat[K[K[Kscp abc.txt cs18c33 3@[K[K@192.168.0.30:0302
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c33@192.168.0.30's password: 
+abc.txt                                         0%    0     0.0KB/s   --:-- ETAabc.txt                                       100%   26     0.0KB/s   00:00    
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ mkdirtxt[K[K[K[Kr txt[K[K[Ka.txt[K[K[K[K[K[K text
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ cd text
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302/text[00m$ cat>[K >abc.txt
+my name is joshena
+from pi unalur
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302/text[00m$ rync[K[K[Ksync -avh 030 2/text text[C[C[C[C/[1P/[1P/[1P/[1P/a/b/c/[1P/[1P/[1P/t/e/x/t/[C /[C[C[K[K/
+sending incremental file list
+rsync: change_dir "/home/student/ceccs18c33/cs232/0302/text//0302" failed: No such file or directory (2)
+created directory text
+
+sent 20 bytes  received 39 bytes  118.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302/text[00m$ ls
+abc.txt  [0m[01;34mtext[0m
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302/text[00m$ cd...[K
+cd..: command not found
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302/text[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302/text[00m$ cd ..
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ sftp cs18c33@192.16 8.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c33@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0302                2701                examples.desktop    
+sftp> put abc.txt
+Uploading abc.txt to /home/cs18c33/abc.txt
+abc.txt                                         0%    0     0.0KB/s   --:-- ETAabc.txt                                       100%   26     0.0KB/s   00:00    
+sftp> lcd ..
+sftp> lpws[Kd
+Local working directory: /home/student/ceccs18c33/cs232
+sftp> ls
+0302                2701                abc.txt             examples.desktop    
+sftp> rm abc.txt
+ls
+Removing /home/cs18c33/abc.txt
+sftp> ls
+0302                2701                examples.desktop    
+sftp> quit
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ if config[K[K[K[K[K[K[K[K[Ki[Kif confif[Kg-a[K[K[K[K[K[K[K[K[K[K[Kifconfig-a[K[K -a
+enp2s0    Link encap:Ethernet  HWaddr 38:d5:47:b8:da:9e  
+          inet addr:192.168.0.132  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::8467:1605:7b8f:7454/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:11831349 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19022 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:973244225 (973.2 MB)  TX bytes:2428191 (2.4 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:51980 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:51980 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3442744 (3.4 MB)  TX bytes:3442744 (3.4 MB)
+
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp2s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp2s0
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ route add default g w 192.168.0.20[K[K[K.20[K0
+SIOCADDRT: Operation not permitted
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ pimg[K[Kng 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=9.91 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=2.66 ms
+64 bytes from 192.168.0.1: icmp_seq=6 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=7 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=8 ttl=64 time=2.43 ms
+64 bytes from 192.168.0.1: icmp_seq=9 ttl=64 time=2.46 ms
+64 bytes from 192.168.0.1: icmp_seq=10 ttl=64 time=3.92 ms
+64 bytes from 192.168.0.1: icmp_seq=11 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=12 ttl=64 time=2.44 ms
+64 bytes from 192.168.0.1: icmp_seq=13 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=14 ttl=64 time=21.9 ms
+64 bytes from 192.168.0.1: icmp_seq=15 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=16 ttl=64 time=1950 ms
+64 bytes from 192.168.0.1: icmp_seq=17 ttl=64 time=931 ms
+64 bytes from 192.168.0.1: icmp_seq=18 ttl=64 time=6.34 ms
+64 bytes from 192.168.0.1: icmp_seq=19 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=20 ttl=64 time=3.06 ms
+64 bytes from 192.168.0.1: icmp_seq=21 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=22 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=23 ttl=64 time=19.3 ms
+64 bytes from 192.168.0.1: icmp_seq=24 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_seq=25 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=26 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=27 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_seq=28 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=29 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=30 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=31 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=32 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=33 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=34 ttl=64 time=170 ms
+64 bytes from 192.168.0.1: icmp_seq=35 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=36 ttl=64 time=13.4 ms
+64 bytes from 192.168.0.1: icmp_seq=37 ttl=64 time=19.8 ms
+64 bytes from 192.168.0.1: icmp_seq=38 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=39 ttl=64 time=2.64 ms
+64 bytes from 192.168.0.1: icmp_seq=40 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=41 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=42 ttl=64 time=2.48 ms
+64 bytes from 192.168.0.1: icmp_seq=43 ttl=64 time=2.56 ms
+64 bytes from 192.168.0.1: icmp_seq=44 ttl=64 time=2.55 ms
+64 bytes from 192.168.0.1: icmp_seq=45 ttl=64 time=2.63 ms
+64 bytes from 192.168.0.1: icmp_seq=46 ttl=64 time=2.61 ms
+64 bytes from 192.168.0.1: icmp_seq=47 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=48 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=49 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=50 ttl=64 time=2.59 ms
+64 bytes from 192.168.0.1: icmp_seq=51 ttl=64 time=2.74 ms
+64 bytes from 192.168.0.1: icmp_seq=52 ttl=64 time=3.01 ms
+64 bytes from 192.168.0.1: icmp_seq=53 ttl=64 time=21.1 ms
+64 bytes from 192.168.0.1: icmp_seq=54 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=55 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=56 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=57 ttl=64 time=2.42 ms
+64 bytes from 192.168.0.1: icmp_seq=58 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=59 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=60 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=61 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=62 ttl=64 time=2.50 ms
+64 bytes from 192.168.0.1: icmp_seq=63 ttl=64 time=2.57 ms
+64 bytes from 192.168.0.1: icmp_seq=64 ttl=64 time=2.65 ms
+64 bytes from 192.168.0.1: icmp_seq=65 ttl=64 time=2.54 ms
+64 bytes from 192.168.0.1: icmp_seq=66 ttl=64 time=4.08 ms
+64 bytes from 192.168.0.1: icmp_seq=67 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=68 ttl=64 time=2.60 ms
+64 bytes from 192.168.0.1: icmp_seq=69 ttl=64 time=2.52 ms
+64 bytes from 192.168.0.1: icmp_seq=70 ttl=64 time=2.69 ms
+64 bytes from 192.168.0.1: icmp_seq=71 ttl=64 time=14.8 ms
+64 bytes from 192.168.0.1: icmp_seq=72 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=73 ttl=64 time=2.53 ms
+64 bytes from 192.168.0.1: icmp_seq=74 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=75 ttl=64 time=2.47 ms
+64 bytes from 192.168.0.1: icmp_seq=76 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_seq=77 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=78 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=79 ttl=64 time=2.51 ms
+64 bytes from 192.168.0.1: icmp_seq=80 ttl=64 time=2.49 ms
+c64 bytes from 192.168.0.1: icmp_seq=81 ttl=64 time=2.49 ms
+64 bytes from 192.168.0.1: icmp_seq=82 ttl=64 time=2.67 ms
+64 bytes from 192.168.0.1: icmp_seq=83 ttl=64 time=2.59 ms
+^C
+--- 192.168.0.1 ping statistics ---
+83 packets transmitted, 83 received, 0% packet loss, time 82147ms
+rtt min/avg/max/mdev = 2.420/40.560/1950.155/234.547 ms, pipe 2
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ cat /etc/resolv.con fig[K[K
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ echo "nameserver1.1 .1.1">>resol[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1.1.1.1">>resol[A]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[Cv.conf
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ ls
+abc.txt   resolv.conf     result_CHN.txt  [0m[01;34mtext[0m
+file.txt  result_CHN.pdf  result.txt      work.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/0302[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/0302[00m$ exit
+exit
+
+Script done on Monday 03 February 2020 11:44:50 AM IST
