@@ -1,0 +1,37 @@
+CEC CS 18 C33 10-02-2020
+Joshena Joseph
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	/SX/script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+        # pdf file is converted to text file
+        #using grep commands cs batch results is separated
+
+
+
+--------------------------------
+Output: 
+
+	
+
+
+-------------------
+Remarks if any:
+
+	X in 'SX' is replaced with 1 or 2 for corresponding semester
+	eg: /S1/script.sh
+
+
+---------------------------------
+
+
+

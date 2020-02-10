@@ -1,0 +1,931 @@
+Script started on Monday 10 February 2020 10:39:40 AM IST
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ [K]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ pdftotext -layout result_chn[K[K[KCHN.P[Kpdf result.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ grep "CHN18CS [K"REE[K[K[K result-[K_[K.txt>[K > result_cs.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ nano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by student with nano 2.5.3, PID 3949); continue?                                                               [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[?25l[41;65H[1K (B[0;7m[ New File ](B[m[K[3d[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3d(B[mpdftotext[42m [49m(B[m -layout[42m [49m(B[m reult   [41d[K[3;21Hsult.pdf[42m [49m(B[m result     [42m [49m(B[m[K      _  t lt_CHN.pdf[42m [49m(B[m result_chn   CHN.TXT   txt        .txt[4dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "c[32m=[39m(B[m  CHN18CS[42m [49m(B[m result.txt[32m>[39m(B[m [42m [49m(B[m [32m>[39m(B[m[42m [49m(B[m result_cs.txt[6G(B[0;1m[33m"CHN18CS result.txt"[39m(B[m [32m>[39m(B[m result_cs.txt[4;26H(B[0;1m[33m"[39m(B[m result.txt" [32m>[39m(B[m result_cs.txt[4;15H result.txt"[1P [C result_cs.txt[5dtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[6d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[7d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[8d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[9dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[11d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[12d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[13d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[14d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[15d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[16d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[17d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[18d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[19d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[20d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[21daw(B[0;1m[34mawk[39m(B[maw[K [K[20;36H         [42m [49m(B[m[K [8G's/[32m([39m(B[mAbsent[32m)[39m(B[m/ 0/g[K  [42m [49m(B[m[K            [42m [49m(B[m[K  [42m [49m(B[m[K se[K [K[19;31H         [42m [49m(B[m[K [8G's/[32m([39m(B[mI[32m)[39m(B[m/ 0/g[K  [42m [49m(B[m[K       [42m [49m(B[m[K  [42m [49m(B[m[K se[K [Kse(B[0;1m[34msed[39m(B[m[42m [49m(B[m -i[42m [49m(B[m "[42m [49m(B[m[K 's/[32m([39m(B[mf FE[32m)[39m(B[m/       [42m [49m(B[m[K  [42m [49m(B[m[K se[K [KSED  [Kse(B[0;1m[34msed[39m(B[m[42m [49m(B[m -i[42m [49m(B[m "[42m [49m(B[m[K 's/[32m([39m(B[mi I[32m)[39m(B[m/10[42m [49m(B[m 0/G g" [8G(B[0;1m[33m's/(I)/10 0/g'[39m(B[m[42m [49m(B[m[1P[1P[C(B[0;1m[33m  0/g'(B[0m[42m [17G[49m(B[m[1P[C(B[0;1m[33m0/g'(B[0m[42m [49m(B[m[K[15G(B[0;1m[33mr0/g'(B[0m[42m [16G[49m(B[m(B[0;1m[33me0/g'(B[0m[42m [17G[49m(B[m(B[0;1m[33m0/g'(B[0m[42m [49m(B[m[K[16G(B[0;1m[33m0/g'(B[0m[42m [49m(B[m[K[15G[C[C[C[C[C[42m [49m(B[m r[42m [49m(B[me[42m [49m(B[ms[42m [49m(B[mu[42m [49m(B[ml[42m [49m(B[mt[42m [49m(B[m.[42m [49m(B[mt[42m [49m(B[mx[42m [49m(B[mt[42m [49m(B[m [20d[42m [49m(B[ms[42m [49m(B[me[42m [49m(B[m(B[0;1m[34msed(B[0m[42m [49m(B[m[C[42m [49m(B[m -[42m [49m(B[mi[42m [49m(B[m[C[42m [49m(B[m "[42m [49m(B[m[42m  [49m(B[m[K '[42m [49m(B[ms[42m [49m(B[m/[42m [49m(B[m[32m([39m[42m [49m(B[ma[42m [49m(B[mb[42m [49m(B[ms[42m [49m(B[me[42m [49m(B[mn[42m [49m(B[mt[42m [49m(B[m[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[KA[42m [49m(B[mb[42m [49m(B[ms[42m [49m(B[me[42m [49m(B[mn[42m [49m(B[mt[42m [49m(B[m[32m)[39m[42m [49m(B[m/[42m [49m(B[m0[42m [49m(B[mg[42m [49m(B[m[41d(B[0;7mFile to insert [from ./] :                                                                                                                     [42;16H(B[m[32X[42;48H(B[0;7m^X(B[m Execute Command[29X[42;95H(B[0;7m^T(B[m To Files[K[43;2H(B[0;7mC(B[m Cancel[16G[32X[43;48H(B[0;7mM-F(B[m New Buffer[K[41;28H(B[0;7mc(B[m(B[0;7m (B[m(B[0;7m6(B[m(B[0;7m (B[m(B[0;7m^(B[m(B[0;7mc(B[m[?25l[41;62H[1K (B[0;7m[ "^c" not found ](B[m[K[20d[?12l[?25h[42;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[20;22Hk[42m [49m(B[m[42m [49m(B[m[K[42m [49m(B[m[K/[42m [49m(B[m[21d[20;21H/[C[42m [49m(B[m r[42m [49m(B[me[42m [49m(B[ms[42m [49m(B[mu[42m [49m(B[ml[42m [49m(B[mt[42m [49m(B[m.[42m [49m(B[mt[42m [49m(B[mx[42m [49m(B[mt[42m [49m(B[m[41d[K[20;26Hg/ result.txt[42m [20;22H[49m(B[m/[1P[1P[32m\[39m(B[m result.txt[42m [20;22H[49m(B[m[1P/ result.txt[42m [20;22H[49m(B[mg result.txt[42m [20;23H[49m(B[m" result.txt[42m [20;24H[49m(B[m[1P[8G(B[0;1m[33m's/(Absent)/0/g'[39m(B[m result.txt[42m [20;24H[49m(B[m result.txt[C          [42m [49m(B[m[K result.txt[21daw(B[0;1m[34mawk[39m(B[m'[32m{[39m(B[m[22d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K print    [42m[1K [49m(B[m [1K print[32m$[39m(B[m [42m [49m(B[m [32m$[39m(B[m(B[0;1m[31m$1[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$2[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$3[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$4[39m(B[m,[32m$[39m(B[m  [32m$[39m(B[m[K(B[0;1m[31m$5[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$7[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$9[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m1,[32m$[39m(B[m  1,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m3,  13,[32m$[39m(B[m    [32m$[39m(B[m[K    [32m$[39m(B[m[K  [32m$[39m(B[m[K  [32m$[39m(B[m[K  [32m$[39m(B[m[K  [32m$[39m(B[m[K  [32m$[39m(B[m[K  ,[32m$[39m(B[m(B[0;1m[31m$2[39m(B[m[32m$[39m(B[m[K(B[0;1m[31m$$[39m(B[m[32m$[39m(B[m[K(B[0;1m[31m$2[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$3[39m(B[m[32m$[39m(B[m[K  [32m$[39m(B[m[K(B[0;1m[31m$3[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$5[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$5[39m(B[m[32m$[39m(B[m[K(B[0;1m[31m$7[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$9[39m(B[m,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m1,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m3,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m5,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m7,[32m$[39m(B[m(B[0;1m[31m$1[39m(B[m9[23d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m    [32m}[39m(B[m'[42m [49m(B[m result.txt[32m>[39m(B[mgp.txt[24daw(B[0;1m[34mawk[39m(B[m' [42m [49m(B[m '[32m{[39m(B[m[25d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K sum[32m=[39m(B[m0[26d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K flag[32m=[39m(B[m0[27d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K fails[32m=[39m(B[m0[28d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K fo[32mfor[39m(B[m[32m([39m(B[mvar[32m=[39m(B[m2[32m;[39m(B[mvar[32m<[39m(B[m[32m=[39m(B[mNf F[32m;[39m(B[mvar++[32m}[39m(B[m[29d[32m{[39m(B[m[30d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m   i[32mif[39m(B[m[42m [49m(B[m var  [42m [49m(B[m[K [32m([39m(B[mvar   [32m$[39m(B[m(B[0;1m[31m$v[39m(B[m(B[0;1m[31ma[39m(B[m(B[0;1m[31mr[39m(B[m[C[C ar(B[0;1m[31mar[39m(B[m[K[32m$[39m(B[m varv var[K var[32m=[39m(B[m[32m=[39m(B[m0[32m)[39m(B[m(B[0;1m[31m$var(B[0m[32m==[39m(B[m0[32m)[10G[39m(B[m[1P[C[C[C[C[C[C0[C[31d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K [32m{[39m(B[m[32d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K flag[32m=[39m(B[m1[33d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K fails[32m=[39m(B[mfails+1[32m)[39m(B[m [34d[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[42m [49m(B[m[1K [32m}[39m(B[m[35d[42m [49m(B[m[43;1H[?1049l[?1l>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano script.sh
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ ls
+result_CHN.pdf  result_cs.txt  result.pdf  result.txt  script.sh.save  work.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ script.[K[K[K[K[K[K[Knano[K[K[K[Kcript[K[K[K[K[Kscript.sh.save
+script.sh.save: command not found
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ nano.sript.[K[K[K[K[K[K[K[K[K[K[Kcat script.sh
+cat: script.sh: No such file or directory
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ cat nano[K[K[K[K[K[K[K[Khistory
+    1  cd
+    2  mkdir cs232
+    3  redir cs232
+    4  mkdir ceccs18c37
+    5  cd ceccs18c37
+    6  mkdir cs232
+    7  cd cs232
+    8  git init
+    9  history
+   10  ls
+   11  git pull http://github.com/ceccs18c37/cs232
+   12  export http_proxy=http://192.168.0.2:3128
+   13  export https_proxy=http://192.168.0.2:3128
+   14  git init
+   15  git pull http://github.com/ceccs18c37/cs232
+   16  ls -a
+   17  sudo mkdr nandu
+   18  mkdr nandu
+   19  mkdir nandu
+   20  rm nandu
+   21  sudo rm nandu
+   22  cd
+   23  cd /home
+   24  cd /home/music
+   25  cd /home
+   26  mkdir a a a a 
+   27  mkdir a b c d e f
+   28  cd
+   29  ma pwd
+   30  manpwd
+   31  man pwd
+   32  man cat
+   33  cd /boot
+   34  cd boot
+   35  cd /etc
+   36  man touch
+   37  man cp
+   38  man mv
+   39  man who
+   40  man cmp
+   41  ls
+   42  ls disk
+   43  man purge
+   44  man apt
+   45  man get
+   46  man apt
+   47  apt-get -v amazon
+   48  man get
+   49  apt-get -h amazon
+   50  apt-get -h 
+   51  mana
+   52  apt-get -h terminal
+   53  man rm
+   54  cd /home
+   55  mkdir 1 2 3 4 5
+   56  mkdir a b c
+   57  pwd
+   58  mkdir abc
+   59  rm abc
+   60  rmdir abc
+   61  rm a
+   62  rm --d
+   63  rm --help
+   64  rm --dir
+   65  rm -d
+   66  rm --help
+   67  rm -d
+   68  rm-d
+   69  rm --help
+   70  mv a
+   71  mv --help
+   72  rm
+   73  rm --dir
+   74  rm a
+   75  rm --help
+   76  rmdir --dir
+   77  rmdir -d
+   78  rm --help
+   79  rmdir -d
+   80  rmdir --dir
+   81  rm --dir
+   82  rm -d a
+   83  rm b
+   84  rm --help
+   85  rm -r
+   86  sudo rm -d
+   87  cd /home
+   88  cd /boot
+   89  cd boot
+   90  pwd
+   91  mkdir 2701
+   92  cd
+   93  cd2701
+   94  cd
+   95  cd 2701
+   96  script work.txt
+   97  ls
+   98  cat abc.txt
+   99  ls
+  100  cat >abc.txt
+  101  pwd
+  102  cd 2701
+  103  ls
+  104  cat>abc.txt
+  105  cd 2701
+  106  sort -n fn
+  107  cat >abc.txt
+  108  cat sort.txt
+  109  cat>sort.txt
+  110  sort -n sort
+  111  sort -n sort.c
+  112  sort -n sort.txt
+  113  cat>abc.txt
+  114  grep "punalur" abc.txt
+  115  cat>ac.txt
+  116  paste ac.txt abc.txt
+  117  exit
+  118  history
+  119  cd 2701
+  120  cat abc.txt
+  121  cat sort.txt
+  122  grep "punalur" abc.txt
+  123  paste ac.txt abc.txt
+  124  exit
+  125  history
+  126  script report.txt
+  127  gedit report.txt
+  128  mkdir ceccs18c33
+  129  cd ceccs18c33
+  130  mkdir cs232
+  131  cd cs232
+  132  mkdir 2701
+  133  cd 2701
+  134  cat > abc.txt
+  135  script wort.txt
+  136  cat>abc.txt
+  137  cat>number.txt
+  138  sort -n number.txt
+  139  cat>number.txt
+  140  sort -n number.txt
+  141  grep "12" number.txt
+  142  cat>n.txt
+  143  paste n.txt number.txt
+  144  script report.txt
+  145  git init
+  146  git pull http://github.com/ceccs18c33/cs232
+  147  script work.txt
+  148  script report.txt
+  149  script report.txt
+  150  history
+  151  gedit report.txt
+  152  sftpcs18c33@14.139.189.217
+  153  sftp cs18c33@14.139.189.217
+  154  sftpcs18c33@14.139.189.217
+  155  sftp cs18c33@14.139.189.217
+  156  sftp cs18c33@192.168.0.30
+  157  sftp csc33@192.168.0.30
+  158  ping 192.168.0.2
+  159  ping 192.168.0.30
+  160  sftp cs18c33@192.168.0.30
+  161  cd
+  162  ping www.ceconline.edu
+  163  clear
+  164  ping www.ceconline.edu
+  165  clear
+  166  netstat -r
+  167  man netstat
+  168  dig www.ceconline.edu
+  169  dig www.tecmint.com
+  170  nslookup www.tecmint.com
+  171  route
+  172  dig www.google.com
+  173  nslookup www.google.com
+  174  man 
+  175  man cat
+  176  man creat
+  177  #include <sys/
+  178  man creat
+  179  #include <sys/types.h>
+  180  #include <sys/stat.h>
+  181  man ping
+  182  #include <sys/types.h>
+  183  #include <sys/stat.h>
+  184  #include <fcntl.h>
+  185  int creat(const char student name, mode_t write);
+  186  int creat (const char student name, mode_t write);
+  187  man creat
+  188  q
+  189  int creat(const char student name, mode_t write);
+  190  int creat ( const char student name, mode_t write);
+  191  int creat (const char student name, mode_t write);
+  192  man creat
+  193  int creat (const char *student name, mode_t write);
+  194  man creat
+  195  man 2 read
+  196  man open
+  197  man 2 open
+  198  #include <sys/types.h>
+  199  #include <sys/stat.h>
+  200  #include <fcntl.h>
+  201  mkdir student;
+  202  cd student
+  203  gedit stud.c
+  204  mkdir student
+  205  gedit stud.c
+  206  gedit stud,c
+  207  gedit std.c
+  208  ls std.c
+  209  rajiv
+  210  13
+  211  cs
+  212  man creat
+  213  man open
+  214  man 2 open
+  215  man 2 gedit
+  216  man gedit
+  217  man open
+  218  man 2 open
+  219  man 2 write
+  220  man seek
+  221  man fork
+  222  man l- seek
+  223  pwd
+  224  cd cec18c33
+  225  ceccs18c33
+  226  pwd
+  227  cd ceccs18c33
+  228  cd cs232
+  229  mkdir 0302
+  230  cd 0302
+  231  cd 2701
+  232  sftp cs18c33@192.168.0.30
+  233  pwd
+  234  cd ceccs18c33
+  235  cd cs232
+  236  mkdir 0302
+  237  cd 0302
+  238  sftp cs18c33@192.168.0.30
+  239  exit
+  240  cd ceccs18c33
+  241  cd cs232
+  242  cd 0302
+  243  ls
+  244  cd cs232
+  245  cd 2701
+  246  cd ceccs18c33/
+  247  cd ceccs18c33/cs232
+  248  cd ..
+  249  ls
+  250  ceccs18c33
+  251  cd ceccs18c33
+  252  ls
+  253  cd cs232
+  254  ls
+  255  cd 2701
+  256  ls
+  257  gedit work.txt
+  258  gedit report.txt
+  259  sftp cs18c33@192.168.0.30
+  260  cd ceccs18c33
+  261  cd cs232
+  262  cd 0302
+  263  script work.txt
+  264  pdftotext -layout result_CHN.pdf result_CHN.txt
+  265  exit
+  266  cd ceccs18c33
+  267  cd cs232
+  268  cd 0302
+  269  script work.txt
+  270  ssh cs18c33@192.168.0.30
+  271  pdftotxt -layout result_CHN.pdf result_CHN.txt
+  272  ls
+  273  pdftotxt -layout result_CHN.pdf result a.txt
+  274  pdftotext -layout result_CHN.pdf result.txt
+  275  grep "CHN18CS" result.txt > file.txt
+  276  ls
+  277  gedit file.txt
+  278  exit
+  279  cd ceccs18c33
+  280  cd cs232
+  281  cs 0302
+  282  cd 0302
+  283  script work.txt
+  284  exit
+  285  cd ceccs18c33
+  286  cs232
+  287  ssh cs18c33@192.168.0.30
+  288  cat >abc.txt
+  289  scp abc.txt cs18c33@192.168.0.30:0302
+  290  mkdir text
+  291  cd text
+  292  cat >abc.txt
+  293  rsync -avh 0302/ text/
+  294  ls
+  295  cd..
+  296  cd ..
+  297  sftp cs18c33@192.168.0.30
+  298  ifconfig -a
+  299  route -n
+  300  route add default gw 192.168.0.20
+  301  ping 192.168.0.1
+  302  cat /etc/resolv.conf
+  303  echo "nameserver 1.1.1.1">>resolv.conf
+  304  ls
+  305  exit
+  306  gedit report.txt
+  307  exit
+  308  cd ceccs18c33
+  309  cd cs232
+  310  cs 0302
+  311  cd 0302
+  312  sftp cs18c33@192.168.0.30
+  313  script work.txt
+  314  script report.txt
+  315  sftp cs18c33@192.168.0.30
+  316  opendesktop
+  317  cd desktop
+  318  cd~
+  319  cd ~
+  320  ls
+  321  cd styud.c
+  322  cd stud.c
+  323  open stud.c
+  324  gedit stud.c
+  325  man open
+  326  open stud.c
+  327  man open
+  328  man 2 open
+  329  #include <sys/types.h>
+  330  man 2 open
+  331  #include <sys/types.h>
+  332  int creat(const char *stud.c,r);
+  333  int creat(const char *stud.c,r)
+  334  int creat(const char *stud.c, mode_t read);
+  335  int creat(const int *stud.c, mode_t read);
+  336  int creat(const int stud.c, mode_t read);
+  337  #include <sys/types.h>
+  338  #include <sys/stat.h>
+  339  #include <fcntl.h>
+  340  int creat(const int *stud.c, mode_t read);
+  341  man fork
+  342  gedit numb.c
+  343  #include <sys/types.h>
+  344  #include <sys/stat.h>
+  345  #include <fcntl.h>
+  346  int creat(const int numb, mode_t read);
+  347  int creat (const int numb.c, mode_t read);
+  348  int creat (const int *numb.c, mode_t read);
+  349  man 2 open
+  350  man read
+  351  read numb.c
+  352  read stud.c
+  353  ls
+  354  cd numb.c
+  355  man touch
+  356  gedit numb.c
+  357  man 2 open
+  358  ls
+  359  man creat
+  360  gedit numb.c
+  361  ./a.out
+  362  ls -l
+  363  ls stud.c
+  364  cd
+  365  cd stud.c
+  366  cd desktop
+  367  ls
+  368  gedit stu.c
+  369  ./a.out
+  370  gedit even.c
+  371  gedit numb.c
+  372  ./a.out
+  373  ls -l
+  374  ./a.out
+  375  gcc numb.c
+  376  gedit numb.c
+  377  gcc numb.c
+  378  gedit numb.c
+  379  gcc numb.c
+  380  gcc numb.c
+  381  gedit stu.c
+  382  gcc stu.c
+  383  ./a.out
+  384  ls stu.c
+  385  ./a.out
+  386  gedit stu.c
+  387  gedit stu.c
+  388  ./a.out
+  389  gedoit stu.c
+  390  gedit stu.c
+  391  gedit evenodd.c
+  392  ./a.out
+  393  gedit evenodd.c
+  394  gcc evenodd.c
+  395  gedit evenodd.c
+  396  gcc evenodd.c
+  397  ./a.out
+  398  ls
+  399  cd evenodd.c
+  400  ls -evenodd.c
+  401  ./a.out
+  402  gedit stu.c
+  403  gcc stu.c
+  404  ./a.out
+  405  gedit stu.c
+  406  man 2 open
+  407  gedit st.c
+  408  cd ceccs18c33
+  409  cd cs232
+  410  mkdir 1002
+  411  cd1002
+  412  cd 1002
+  413  script work.txt
+  414  psftotext -layout result_CHN.pdf result_CHN.txt
+  415  pdftotext -layout result_CHN.pdf result_CHN.txt
+  416  cdceccs18c33
+  417  cd ceccs18c33
+  418  cd cs232
+  419  cd 1002
+  420  pdftotext -layout result_CHN.pdf result_CHN.txt
+  421  grep "CHN18CS" result.txt > file.txt
+  422  grep "CHN18CS" result_CHN.txt>file.txt
+  423  cat > file.txt
+  424  grep "CHN18CS" result_CHN.txt>file.txt
+  425  sed -i 's/(O)/10/g' result_CHN.txt
+  426  nano script.sh
+  427  gedit sgpa.py
+  428  ls
+  429  python sgpa.py
+  430  pdftotext -layout reslt.pdf result_cs.txt
+  431  pdftotext -layout result.pdf result_cs.txt
+  432  grep "CHN18CS" result.txt > result_cs.txt
+  433  grep "CHN18CS" result_cs.txt > s2result.txt
+  434  gedit sgpa.py
+  435  ls
+  436  python sgpa.py
+  437  pdftotext -layout result.pdf result_cs.txt
+  438  grep "CHN18CS" result_cs.txt > s2result.txt
+  439  gedit sgpa.py
+  440  python sgpa.py
+  441  gedit cgpa.py
+  442  pdftotext -layout result_CHN.pdf result.txt
+  443  grep "CHN18CS" result.txt > result_cs.txt
+  444  nano script.sh
+  445  ls
+  446  script.sh.save
+  447  cat script.sh
+  448  history
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ 444
+No command '444' found, did you mean:
+ Command 'c44' from package 'djvulibre-bin' (universe)
+444: command not found
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ va[K[Kcat[K[K[Kls
+result_CHN.pdf  result_cs.txt  result.pdf  result.txt  script.sh.save  work.txt
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ cat >script[K[K[K[K[K[K[K[K[K[K[Khid[Kstory
+    1  cd
+    2  mkdir cs232
+    3  redir cs232
+    4  mkdir ceccs18c37
+    5  cd ceccs18c37
+    6  mkdir cs232
+    7  cd cs232
+    8  git init
+    9  history
+   10  ls
+   11  git pull http://github.com/ceccs18c37/cs232
+   12  export http_proxy=http://192.168.0.2:3128
+   13  export https_proxy=http://192.168.0.2:3128
+   14  git init
+   15  git pull http://github.com/ceccs18c37/cs232
+   16  ls -a
+   17  sudo mkdr nandu
+   18  mkdr nandu
+   19  mkdir nandu
+   20  rm nandu
+   21  sudo rm nandu
+   22  cd
+   23  cd /home
+   24  cd /home/music
+   25  cd /home
+   26  mkdir a a a a 
+   27  mkdir a b c d e f
+   28  cd
+   29  ma pwd
+   30  manpwd
+   31  man pwd
+   32  man cat
+   33  cd /boot
+   34  cd boot
+   35  cd /etc
+   36  man touch
+   37  man cp
+   38  man mv
+   39  man who
+   40  man cmp
+   41  ls
+   42  ls disk
+   43  man purge
+   44  man apt
+   45  man get
+   46  man apt
+   47  apt-get -v amazon
+   48  man get
+   49  apt-get -h amazon
+   50  apt-get -h 
+   51  mana
+   52  apt-get -h terminal
+   53  man rm
+   54  cd /home
+   55  mkdir 1 2 3 4 5
+   56  mkdir a b c
+   57  pwd
+   58  mkdir abc
+   59  rm abc
+   60  rmdir abc
+   61  rm a
+   62  rm --d
+   63  rm --help
+   64  rm --dir
+   65  rm -d
+   66  rm --help
+   67  rm -d
+   68  rm-d
+   69  rm --help
+   70  mv a
+   71  mv --help
+   72  rm
+   73  rm --dir
+   74  rm a
+   75  rm --help
+   76  rmdir --dir
+   77  rmdir -d
+   78  rm --help
+   79  rmdir -d
+   80  rmdir --dir
+   81  rm --dir
+   82  rm -d a
+   83  rm b
+   84  rm --help
+   85  rm -r
+   86  sudo rm -d
+   87  cd /home
+   88  cd /boot
+   89  cd boot
+   90  pwd
+   91  mkdir 2701
+   92  cd
+   93  cd2701
+   94  cd
+   95  cd 2701
+   96  script work.txt
+   97  ls
+   98  cat abc.txt
+   99  ls
+  100  cat >abc.txt
+  101  pwd
+  102  cd 2701
+  103  ls
+  104  cat>abc.txt
+  105  cd 2701
+  106  sort -n fn
+  107  cat >abc.txt
+  108  cat sort.txt
+  109  cat>sort.txt
+  110  sort -n sort
+  111  sort -n sort.c
+  112  sort -n sort.txt
+  113  cat>abc.txt
+  114  grep "punalur" abc.txt
+  115  cat>ac.txt
+  116  paste ac.txt abc.txt
+  117  exit
+  118  history
+  119  cd 2701
+  120  cat abc.txt
+  121  cat sort.txt
+  122  grep "punalur" abc.txt
+  123  paste ac.txt abc.txt
+  124  exit
+  125  history
+  126  script report.txt
+  127  gedit report.txt
+  128  mkdir ceccs18c33
+  129  cd ceccs18c33
+  130  mkdir cs232
+  131  cd cs232
+  132  mkdir 2701
+  133  cd 2701
+  134  cat > abc.txt
+  135  script wort.txt
+  136  cat>abc.txt
+  137  cat>number.txt
+  138  sort -n number.txt
+  139  cat>number.txt
+  140  sort -n number.txt
+  141  grep "12" number.txt
+  142  cat>n.txt
+  143  paste n.txt number.txt
+  144  script report.txt
+  145  git init
+  146  git pull http://github.com/ceccs18c33/cs232
+  147  script work.txt
+  148  script report.txt
+  149  script report.txt
+  150  history
+  151  gedit report.txt
+  152  sftpcs18c33@14.139.189.217
+  153  sftp cs18c33@14.139.189.217
+  154  sftpcs18c33@14.139.189.217
+  155  sftp cs18c33@14.139.189.217
+  156  sftp cs18c33@192.168.0.30
+  157  sftp csc33@192.168.0.30
+  158  ping 192.168.0.2
+  159  ping 192.168.0.30
+  160  sftp cs18c33@192.168.0.30
+  161  cd
+  162  ping www.ceconline.edu
+  163  clear
+  164  ping www.ceconline.edu
+  165  clear
+  166  netstat -r
+  167  man netstat
+  168  dig www.ceconline.edu
+  169  dig www.tecmint.com
+  170  nslookup www.tecmint.com
+  171  route
+  172  dig www.google.com
+  173  nslookup www.google.com
+  174  man 
+  175  man cat
+  176  man creat
+  177  #include <sys/
+  178  man creat
+  179  #include <sys/types.h>
+  180  #include <sys/stat.h>
+  181  man ping
+  182  #include <sys/types.h>
+  183  #include <sys/stat.h>
+  184  #include <fcntl.h>
+  185  int creat(const char student name, mode_t write);
+  186  int creat (const char student name, mode_t write);
+  187  man creat
+  188  q
+  189  int creat(const char student name, mode_t write);
+  190  int creat ( const char student name, mode_t write);
+  191  int creat (const char student name, mode_t write);
+  192  man creat
+  193  int creat (const char *student name, mode_t write);
+  194  man creat
+  195  man 2 read
+  196  man open
+  197  man 2 open
+  198  #include <sys/types.h>
+  199  #include <sys/stat.h>
+  200  #include <fcntl.h>
+  201  mkdir student;
+  202  cd student
+  203  gedit stud.c
+  204  mkdir student
+  205  gedit stud.c
+  206  gedit stud,c
+  207  gedit std.c
+  208  ls std.c
+  209  rajiv
+  210  13
+  211  cs
+  212  man creat
+  213  man open
+  214  man 2 open
+  215  man 2 gedit
+  216  man gedit
+  217  man open
+  218  man 2 open
+  219  man 2 write
+  220  man seek
+  221  man fork
+  222  man l- seek
+  223  pwd
+  224  cd cec18c33
+  225  ceccs18c33
+  226  pwd
+  227  cd ceccs18c33
+  228  cd cs232
+  229  mkdir 0302
+  230  cd 0302
+  231  cd 2701
+  232  sftp cs18c33@192.168.0.30
+  233  pwd
+  234  cd ceccs18c33
+  235  cd cs232
+  236  mkdir 0302
+  237  cd 0302
+  238  sftp cs18c33@192.168.0.30
+  239  exit
+  240  cd ceccs18c33
+  241  cd cs232
+  242  cd 0302
+  243  ls
+  244  cd cs232
+  245  cd 2701
+  246  cd ceccs18c33/
+  247  cd ceccs18c33/cs232
+  248  cd ..
+  249  ls
+  250  ceccs18c33
+  251  cd ceccs18c33
+  252  ls
+  253  cd cs232
+  254  ls
+  255  cd 2701
+  256  ls
+  257  gedit work.txt
+  258  gedit report.txt
+  259  sftp cs18c33@192.168.0.30
+  260  cd ceccs18c33
+  261  cd cs232
+  262  cd 0302
+  263  script work.txt
+  264  pdftotext -layout result_CHN.pdf result_CHN.txt
+  265  exit
+  266  cd ceccs18c33
+  267  cd cs232
+  268  cd 0302
+  269  script work.txt
+  270  ssh cs18c33@192.168.0.30
+  271  pdftotxt -layout result_CHN.pdf result_CHN.txt
+  272  ls
+  273  pdftotxt -layout result_CHN.pdf result a.txt
+  274  pdftotext -layout result_CHN.pdf result.txt
+  275  grep "CHN18CS" result.txt > file.txt
+  276  ls
+  277  gedit file.txt
+  278  exit
+  279  cd ceccs18c33
+  280  cd cs232
+  281  cs 0302
+  282  cd 0302
+  283  script work.txt
+  284  exit
+  285  cd ceccs18c33
+  286  cs232
+  287  ssh cs18c33@192.168.0.30
+  288  cat >abc.txt
+  289  scp abc.txt cs18c33@192.168.0.30:0302
+  290  mkdir text
+  291  cd text
+  292  cat >abc.txt
+  293  rsync -avh 0302/ text/
+  294  ls
+  295  cd..
+  296  cd ..
+  297  sftp cs18c33@192.168.0.30
+  298  ifconfig -a
+  299  route -n
+  300  route add default gw 192.168.0.20
+  301  ping 192.168.0.1
+  302  cat /etc/resolv.conf
+  303  echo "nameserver 1.1.1.1">>resolv.conf
+  304  ls
+  305  exit
+  306  gedit report.txt
+  307  exit
+  308  cd ceccs18c33
+  309  cd cs232
+  310  cs 0302
+  311  cd 0302
+  312  sftp cs18c33@192.168.0.30
+  313  script work.txt
+  314  script report.txt
+  315  sftp cs18c33@192.168.0.30
+  316  opendesktop
+  317  cd desktop
+  318  cd~
+  319  cd ~
+  320  ls
+  321  cd styud.c
+  322  cd stud.c
+  323  open stud.c
+  324  gedit stud.c
+  325  man open
+  326  open stud.c
+  327  man open
+  328  man 2 open
+  329  #include <sys/types.h>
+  330  man 2 open
+  331  #include <sys/types.h>
+  332  int creat(const char *stud.c,r);
+  333  int creat(const char *stud.c,r)
+  334  int creat(const char *stud.c, mode_t read);
+  335  int creat(const int *stud.c, mode_t read);
+  336  int creat(const int stud.c, mode_t read);
+  337  #include <sys/types.h>
+  338  #include <sys/stat.h>
+  339  #include <fcntl.h>
+  340  int creat(const int *stud.c, mode_t read);
+  341  man fork
+  342  gedit numb.c
+  343  #include <sys/types.h>
+  344  #include <sys/stat.h>
+  345  #include <fcntl.h>
+  346  int creat(const int numb, mode_t read);
+  347  int creat (const int numb.c, mode_t read);
+  348  int creat (const int *numb.c, mode_t read);
+  349  man 2 open
+  350  man read
+  351  read numb.c
+  352  read stud.c
+  353  ls
+  354  cd numb.c
+  355  man touch
+  356  gedit numb.c
+  357  man 2 open
+  358  ls
+  359  man creat
+  360  gedit numb.c
+  361  ./a.out
+  362  ls -l
+  363  ls stud.c
+  364  cd
+  365  cd stud.c
+  366  cd desktop
+  367  ls
+  368  gedit stu.c
+  369  ./a.out
+  370  gedit even.c
+  371  gedit numb.c
+  372  ./a.out
+  373  ls -l
+  374  ./a.out
+  375  gcc numb.c
+  376  gedit numb.c
+  377  gcc numb.c
+  378  gedit numb.c
+  379  gcc numb.c
+  380  gcc numb.c
+  381  gedit stu.c
+  382  gcc stu.c
+  383  ./a.out
+  384  ls stu.c
+  385  ./a.out
+  386  gedit stu.c
+  387  gedit stu.c
+  388  ./a.out
+  389  gedoit stu.c
+  390  gedit stu.c
+  391  gedit evenodd.c
+  392  ./a.out
+  393  gedit evenodd.c
+  394  gcc evenodd.c
+  395  gedit evenodd.c
+  396  gcc evenodd.c
+  397  ./a.out
+  398  ls
+  399  cd evenodd.c
+  400  ls -evenodd.c
+  401  ./a.out
+  402  gedit stu.c
+  403  gcc stu.c
+  404  ./a.out
+  405  gedit stu.c
+  406  man 2 open
+  407  gedit st.c
+  408  cd ceccs18c33
+  409  cd cs232
+  410  mkdir 1002
+  411  cd1002
+  412  cd 1002
+  413  script work.txt
+  414  psftotext -layout result_CHN.pdf result_CHN.txt
+  415  pdftotext -layout result_CHN.pdf result_CHN.txt
+  416  cdceccs18c33
+  417  cd ceccs18c33
+  418  cd cs232
+  419  cd 1002
+  420  pdftotext -layout result_CHN.pdf result_CHN.txt
+  421  grep "CHN18CS" result.txt > file.txt
+  422  grep "CHN18CS" result_CHN.txt>file.txt
+  423  cat > file.txt
+  424  grep "CHN18CS" result_CHN.txt>file.txt
+  425  sed -i 's/(O)/10/g' result_CHN.txt
+  426  nano script.sh
+  427  gedit sgpa.py
+  428  ls
+  429  python sgpa.py
+  430  pdftotext -layout reslt.pdf result_cs.txt
+  431  pdftotext -layout result.pdf result_cs.txt
+  432  grep "CHN18CS" result.txt > result_cs.txt
+  433  grep "CHN18CS" result_cs.txt > s2result.txt
+  434  gedit sgpa.py
+  435  ls
+  436  python sgpa.py
+  437  pdftotext -layout result.pdf result_cs.txt
+  438  grep "CHN18CS" result_cs.txt > s2result.txt
+  439  gedit sgpa.py
+  440  python sgpa.py
+  441  gedit cgpa.py
+  442  pdftotext -layout result_CHN.pdf result.txt
+  443  grep "CHN18CS" result.txt > result_cs.txt
+  444  nano script.sh
+  445  ls
+  446  script.sh.save
+  447  cat script.sh
+  448  history
+  449  444
+  450  ls
+  451  history
+]0;student@ceclab2-System-Product-Name: ~/ceccs18c33/cs232/1002[01;32mstudent@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c33/cs232/1002[00m$ 444[K[K[Kcat > nano[K[K[K[K[K[K[K[K[K[Knano script.sh
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[41d(B[0;7mFile script.sh is being edited (by student with nano 2.5.3, PID 5237); continue?                                                               [42;1H Y(B[m Yes[43d(B[0;7m N(B[m No[43;17H(B[0;7m^C(B[m Cancel[41;81H[?25l[41;65H[1K (B[0;7m[ New File ](B[m[K[3d[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: script.sh                                                                             [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Linter   (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[3d[1;134H(B[0;7mModified[3d(B[mpdf  [Kpdftotext[42m [49m(B[m -layout[42m [49m(B[m re[41d[K[3;21Hsult_CHN.pdf[42m [49m(B[m resy ult_ch  CHN.TEXT    te xt[4dgre(B[0;1m[34mgrep[39m(B[m[42m [49m(B[m "CHN18CS[6G(B[0;1m[33m"CHN18CS"[39m(B[m[42m [49m(B[m RES  [42m [49m(B[m[K RESULT     [42m [49m(B[m[K RE [42m [49m(B[m[K RE [42m [49m(B[m[K R[42m [49m(B[m[K result_c X CHN.TXT   txt[42m [49m(B[m[42m [49m(B[m  result[5d_[K[4;38H_CS.TXT   txt[3;8H[1K [32m{[39m[42m       [49m(B[m[K[4d[1K [32mif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m[42m [49m(B[m[K[5;17H[32m{[6;25H[39m(B[mflag [32m=[39m(B[m 1[7;25Hfails [32m=[39m(B[m fails + 1[8;17H[32m}[9d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[10;9H(B[0m[32m}[11d[39m(B[mcgpa [32m=[39m(B[m sum/9[12;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[39m[42m        [13;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[14;9H}[15dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[16;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[17;9H}[18d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[22d[36m# adds name and roll no[23d[39m(B[mjoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[25d[36m# Removes temperory files used to process[26d(B[0;1m[34mrm[39m(B[m result.txt[27d(B[0;1m[34mrm[39m(B[m result_cs.txt[28d(B[0;1m[34mrm[39m(B[m result_na.txt[29d(B[0;1m[34mrm[39m(B[m result_nn.txt[30d(B[0;1m[34mrm[39m(B[m gp.txt[31d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[30;10H[29;17H[28;17H[27;17H[26;14H[25;42H[A[23;43H[24d[25d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C      [42m [49m(B[m[K  [42m [49m(B[m[K    [42m [49m(B[m[K     [42m [49m(B[m[K         [42m [49m(B[m[K       [42m [49m(B[m[K [K[24;41r[41;1H
+[1;43r[24;1H[Ajoin students.txt  cgp[A[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K [36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[K[36mo[39m(B[m[Ko[K[19;41r[41;1H
+[1;43r[21;1H[19;41r[41;1H
+[1;43r[20;1H[19;41r[41;1H
+[1;43r[19;1H[19;41r[41;1H
+[1;43r[18;25Hoo[K[17;10H[16;53H[16;9H[15;25H[14;10H[13;45H[10G[12;33H[12;25H[11;21H[10;10H[9;28H[9;9H[8;18H[8;9H[7;42H[7;17H[7;9H[6;33H[6;17H[6;9H[5;18H[5;9H[4;31H[4;9H[3;17H[10G[2;40r[2;1H[20T[1;43r[3;1H(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[4d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[12d[36m# Seperates gradepoints[39m[42m [13d(B[0;1m[34mawk[39m(B[m  '[32m{[39m[42m  [14d[49m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[15d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [17d[49m[36m# Computes CGPA and counts subjects failed in[18d(B[0;1m[34mawk[39m(B[m '[32m{[19;9H[39m(B[msum [32m=[39m(B[m 0[20;9Hflag [32m=[39m(B[m 0[21;9Hfails [32m=[39m(B[m 0[22;9H[32mfor([39m(B[mvar [32m=[39m(B[m2[32m;[39m(B[m var[32m<=[39m(B[mNF[32m;[39m(B[m var++[32m)[39m(B[m[1P[1P[1P[1P[1P[1P[21;18H[20;17H[19;16H[18;7H[17;46H[C[C[C[C [42m [49m(B[m[K      [42m [49m(B[m[K        [42m [49m(B[m[K      [42m [49m(B[m[K   [42m [49m(B[m[K    [42m [49m(B[m[K        [42m [49m(B[m[K [K[16;41r[41;1H
+[1;43r[40;1H(B[0;1m[34mrm[39m(B[m result.txt[16d[A[A[14;9H[A[C  [14d[13;8H[14d[A[C[C[C  '[C[14d[14;9Hprint [C[C,[C[C,[C[C,[13;8H[12;24H[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[A[22d[A[21;9H[C[C[C[Cv va[22d[10G[K[42m[1K [49m(B[m [A[C[C[C[Cv var[C[CNF[C var++[C     [42m [49m(B[m[K        [42m [49m(B[m[K  var[32m=[39m(B[m2[32m;[39m(B[mvar[32m<[39m(B[m[32m=[39m(B[mNF[32m;[39m(B[mVAR++     var++ ar++ar++[Kar +++[22;9H[22;9H[23d[A[22;9H[K[22;41r[41;1H
+[1;43r[40;1H(B[0;1m[34mrm[39m(B[m result_cs.txt[21;33H[22d[23;18H[24;33H[23;18H[22;31H [A +[32m}[39m(B[m++[K ++[32m}[39m(B[m[22;30H[23;18H[24;33H[25df[26;18H[27;28H[28;10H[29;21H[30;33H[30;25H[K[31d[32;10H[33;25H[34d[35;10H[36;25H t[37draw.txt [C cgpa.txt[38d[39;14H[40;17H7[2;41r8[41d[20S[1;43r[2;1H[K[21d(B[0;1m[34mrm[39m(B[m result_na.txt[22d(B[0;1m[34mrm[39m(B[m result_nn.txt[23d(B[0;1m[34mrm[39m(B[m gp.txt[24d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[21dt[A[A[A[17;43H[16;25H[15;10H[14;43H[13;25H[12;10H[11;43H[10;25H[A[8;10H[7;28H[6;18H[5;42H[4;33H[3;18H[2;40r[2;1H[20T[1;43r[3;1H(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[4d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[7d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[8d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[9d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[10d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[12d[42m [13d(B[0;1m[34mawk[39m(B[m  '[32m{[14;9H[39m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[15d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[42m [17d(B[0;1m[34mawk[39m(B[m '[32m{[18;9H[39m(B[msum [32m=[39m(B[m 0[19;9Hflag [32m=[39m(B[m 0[20;9Hfails [32m=[39m(B[m 0[21;9H[32mfor([39m(B[mvar[32m=[39m(B[m2[32m;[39m(B[mvar[32m<=[39m(B[mNF[32m;[39m(B[mvar ++[32m}[22;17Hif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[39m(B[m[21;34H[20;18H[A[A[17;7H[A[15;25H[14;43H[13;8H[A[C[A[10;36H[9;31H[At[A[A[A[A[At[2;40r[2;1H[18T[1;43r[3;1Hpdftotext -layout result_CHN.pdf result_CHN.txt[4d(B[0;1m[34mgrep[39m(B[m (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt  result_CS.txt# Coverts .pdf to .txt[5dpdftotext -layout result_CHN.pdf result_CHN.txt[7d[36m# Separates out results of CS students[8d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[10d[36m# Cleans up and arranges the data in organised manner[11d[39m(B[mtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[12d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[13d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[14d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[15dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[17d[36m# Convert Grades to Grade Points[39m[42m [18d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[19d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[20d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[A[A[17;34H[A[15;41H[Alt[A[A[A[A[A[8;43H[A[A[5;43H[A[A[4d[5d[6d[7;39H       [42m [49m(B[m[K  [42m [49m(B[m[K  [42m [49m(B[m[K       [42m [49m(B[m[K   [42m [49m(B[m[K         [42m [49m(B[m[K [K[6;41r[41;1H
+[1;43r[40;17H[32m{[6d[39m(B[m[7d[8d[9d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C     [42m [49m(B[m[K         [42m [49m(B[m[K  [42m [49m(B[m[K    [42m [49m(B[m[K   [42m [49m(B[m[K        [42m [49m(B[m[K   [42m [49m(B[m[K  [42m [49m(B[m[K      [42m [49m(B[m[K [K[8;41r[41;1H
+[1;43r[40;25Hflag [32m=[39m(B[m 1[8d[9d[10d[11d[C[12d[13d[14d[15;2H[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m [49m(B[m[K[42m  [49m(B[m[K [42m [49m(B[m[K[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[C[K[29d[30d[31d [C' result.txt [C gp.txt[C [A[29;8H[A[A[26;23H[A[A[A[A[A[A[A[A[A[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[29;8H[30;23H[31d[32d[33;7H[34;16H[35d0[36d0[37;23H[38d[39;18H[40d7[3;41r8[41d[20S[1;43r[21;25Hfails [32m=[39m(B[m fails + 1[22;17H[32m}[23d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[24;9H(B[0m[32m}[25d[39m(B[mcgpa [32m=[39m(B[m sum/9[26;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[27;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[28;9H}[29dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[30;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[31;9H}[32d}[39m(B[m' gp.txt [32m>[39m(B[m cgpa_raw.txt[33djoin students.txt  cgpa_raw.txt [32m>[39m(B[m cgpa.txt[35d(B[0;1m[34mrm[39m(B[m result.txt[36d(B[0;1m[34mrm[39m(B[m result_cs.txt[37d(B[0;1m[34mrm[39m(B[m result_na.txt[38d(B[0;1m[34mrm[39m(B[m result_nn.txt[39d(B[0;1m[34mrm[39m(B[m gp.txt[40d(B[0;1m[34mrm[39m(B[m cgpa_raw.txt[21;17H[22;18H[23;23H[24;10H[25;21H[26;23H[27d[28;10H[29;23H[30d[31;10H[32;23H[33d[34d[35;14H[36;17H[37d[38d[39;10H[40;16H7[2;41r8[41d[20S[1;43r[2;1H[K[21d[20;16H[19;10H[18;17H[A[A[A[A[13;23H[A[11;10H[10;23H[A[8;10H[7;23H[A[A[4;10H[3;23H[2;41r[2;1H[20T[1;43r[3;1H(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(F)/ 0/g'[39m(B[m result.txt[4d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(FE)/ 0/g'[39m(B[m result.txt[5d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(I)/ 0/g'[39m(B[m result.txt[6d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(Absent)/ 0/g'[39m(B[m result.txt[9d(B[0;1m[34mawk[39m(B[m  '[32m{[10;9H[39m(B[mprint (B[0;1m[31m$1[39m(B[m,(B[0;1m[31m$3[39m(B[m,(B[0;1m[31m$5[39m(B[m,(B[0;1m[31m$7[39m(B[m,(B[0;1m[31m$9[39m(B[m,(B[0;1m[31m$1[39m(B[m1,(B[0;1m[31m$1[39m(B[m3,(B[0;1m[31m$1[39m(B[m5,(B[0;1m[31m$1[39m(B[m7,(B[0;1m[31m$1[39m(B[m9[11d [32m}[39m(B[m' result.txt [32m>[39m(B[m gp.txt[13d(B[0;1m[34mawk[39m(B[m '[32m{[14;9H[39m(B[msum [32m=[39m(B[m 0[15;9Hflag [32m=[39m(B[m 0[16;9Hfails [32m=[39m(B[m 0[17;9H[32mfor([39m(B[mvar[32m=[39m(B[m2[32m;[39m(B[mvar[32m<=[39m(B[mNF[32m;[39m(B[mvar ++[32m}[18;17Hif((B[0;1m[31m$var[39m(B[m [32m==[39m(B[m 0[32m)[19;17H{[20;25H[39m(B[mflag [32m=[39m(B[m 1[21;25Hfails [32m=[39m(B[m fails + 1[22;17H[32m}[39m(B[m[A[A[A[C[18;23H[A[16;18H[A[A[13;7H[A[11;23H[A[9;8H[A[A[6;23H[A[A[A[2;40r[2;1H[20T[1;43r[3;1Hpdftotext -layout result_CHN.pdf result_CHN.txt[4d(B[0;1m[34mgrep[39m(B[m (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt  result_CS.txt# Coverts .pdf to .txt[5dpdftotext -layout result_CHN.pdf result_CHN.txt[7d(B[0;1m[34mgrep[39m(B[m --no-group-separator -A3 (B[0;1m[33m"CHN18CS"[39m(B[m result_CHN.txt [32m>[39m(B[m result_cs.txt[9dtr  (B[0;1m[33m'\n'[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_cs.txt [32m>[39m(B[m result_nn.txt[10d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/\t//g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[11d(B[0;1m[34mawk[39m(B[m (B[0;1m[33m'{$1=$1;print}'[39m(B[m result_na.txt [32m>[39m(B[m result_nn.txt[12d(B[0;1m[34msed[39m(B[m (B[0;1m[33m's/CHN/\nCHN/g'[39m(B[m result_nn.txt [32m>[39m(B[m result_na.txt[13dtr  (B[0;1m[33m','[39m(B[m (B[0;1m[33m' '[39m(B[m [32m<[39m(B[m result_na.txt [32m>[39m(B[m result.txt[15d[42m [16d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(O)/ 10/g'[39m(B[m result.txt[17d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A+)/ 9/g'[39m(B[m result.txt[18d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(A)/ 8.5/g'[39m(B[m result.txt[19d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B+)/ 8/g'[39m(B[m result.txt[20d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(B)/ 7/g'[39m(B[m result.txt[21d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(C)/ 6/g'[39m(B[m result.txt[22d(B[0;1m[34msed[39m(B[m -i (B[0;1m[33m's/(P)/ 5/g'[39m(B[m result.txt[22;23H[A[A[A[A[A[A[A[C[A[13;23H[A[A[A[A[A[7;23H[A[5;23H[A[A[4d[5d[6d[7;23Htor -A3[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[32m-s[39m(B[m[1P-[1P[1P[1P[1P[1P[32m-g[39m(B[m[1P-[1P[1P[32m-n[39m(B[m[1P-[1P[1P-[1P[1P[8d[9;5H[10d[11d[12d[13d[14d[15;2H[K[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[27d[28d[29d[30d[31d [C' result.txt [C gp.t[32d[33;7H[34;16H[35d0[36d0[37;22H[38d[39;18H[40d7[3;41r8[41d[20S[1;43r[21;25Hfails [32m=[39m(B[m fails + 1[22;17H[32m}[23d[39m(B[msum +[32m=[39m(B[m (B[0;1m[31m$var[24;9H(B[0m[32m}[25d[39m(B[mcgpa [32m=[39m(B[m sum/9[26;9H[32mif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 0[32m)[39m(B[m [32m{[27;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s %0.2f\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,cgpa[32m)[28;9H}[29dif[39m(B[m [32m([39m(B[mflag [32m==[39m(B[m 1[32m)[39m(B[m [32m{[30;17H(B[0;1m[34mprintf(B[0m[32m((B[0;1m[33m"%s failed in %d\n"[39m(B[m,(B[0;1m[31m$1[39m(B[m,fails[32m)[31;9H
