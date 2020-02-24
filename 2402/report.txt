@@ -1,0 +1,49 @@
+CEC CS 18 C33
+Joshena Joseph
+
+--------------------------------
+
+
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	script.sh
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	result_CHN.pdf
+
+	# student details file containing roll number 
+	students.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	cgpa.txt
+
+
+-------------------
+
+#2: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+Input:	
+	index.html
+
+--------------------------------
+Output: 
+
+	file:///home/student/ceccs18c33/cs232/2402/index.html
+
+-------------------
+
