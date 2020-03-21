@@ -1,0 +1,19 @@
+Script started on 2020-03-21 17:55:38+0530
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit helloworld.pl
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit helloworld.pl[1P helloworld.pl[1P helloworld.pl[1P helloworld.pl[1P helloworld.pl[1P helloworld.plp helloworld.ple helloworld.plr helloworld.pll helloworld.pl
+Hello World! I'm Joshena.
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit multiplicat[K[K[K[Ky.pl
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.plp multiply.ple multiply.plr multiply.pll multiply.pl
+Enter the numbers
+10
+10
+Product= 100
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit factorial.pl
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit factorial.pl[C[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.pl[1P factorial.plp factorial.ple factorial.plr factorial.pll factorial.pl
+enter limit 9
+factorial is 362880
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ gedit report.txt
+]0;godi@mypc: ~/ceccs18c33/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c33/cs232/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 18:05:58+0530

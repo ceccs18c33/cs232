@@ -1,0 +1,47 @@
+CEC CS 18 C33 21-03-20
+
+JOSHENA JOSEPH
+
+--------------------------------
+#1:t8(2) Perl
+---------------------------------
+Program Name:
+----------------------------
+1. Program to print "helloworld".
+
+
+2. Program to find the product of two numbers.
+
+
+3. Program to find factorial of a number.
+
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1.	Hello World! I'm Joshena.
+
+
+2.	Enter the numbers
+	10
+	10
+	Product= 100
+
+	
+3.	enter limit 9
+	factorial is 362880
+
+
+-------------------------------------
+
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+------------------------------------
