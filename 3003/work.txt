@@ -1,0 +1,64 @@
+Script started on 2020-03-30 14:12:41+0530
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$  sudo apt-get install vsftpd
+[sudo] password for joshena: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/115 kB of archives.
+After this operation, 334 kB of additional disk space will be used.
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 169652 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-9build1_amd64.deb ...
+Unpacking vsftpd (3.0.3-9build1) ...
+Setting up vsftpd (3.0.3-9build1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+Processing triggers for systemd (237-3ubuntu10.39) ...
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$  sudo gedit /etc/vsftpd.conf
+
+** (gedit:5162): [1;33mWARNING[0m **: [34m14:15:50.009[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5162): [1;33mWARNING[0m **: [34m14:15:50.010[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5162): [1;33mWARNING[0m **: [34m14:15:54.083[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:joshena): joshena
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> 221 Goodbye.
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$  ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:joshena): joshena
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> exit
+221 Goodbye.
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$ sudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$ sudo gedit /var/www/html/index.html
+
+** (gedit:5240): [1;33mWARNING[0m **: [34m14:19:53.607[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (gedit:5240): [1;33mWARNING[0m **: [34m14:19:53.607[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5240): [1;33mWARNING[0m **: [34m14:19:55.058[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;joshena@joshena: ~/ceccs18c33/cs232/3003[01;32mjoshena@joshena[00m:[01;34m~/ceccs18c33/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 14:24:12+0530
