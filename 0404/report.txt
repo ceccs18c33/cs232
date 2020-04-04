@@ -1,0 +1,97 @@
+CEC CS 18 C 33
+JOSHENA JOSEPH
+
+04-04-2020
+
+--------------------------------
+#1: Aim/task
+  
+#S4
+
+ Shell script to show various system configuration like 
+  Currently logged user and his login name  
+  Your current shell 
+  Your home directory 
+  Your operating system type 
+  Your current path setting 
+  Your current working directory 
+  Number of users currently logged in
+
+
+---------------------------------
+Command/Shell script/Program name
+
+#Shell script:
+system_config.sh
+
+
+
+---------------------------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ 
+* 1.png is attached to show various system configuration like 
+
+  Currently logged user and his login name  
+  Your current shell 
+  Your home directory 
+  Your operating system type 
+  Your current path setting 
+  Your current working directory 
+  Number of users currently logged in
+
+
+
+
+
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+#2: Aim/task
+
+   #s5
+
+    Shell script to show various system configurations like 
+    
+    your OS and version, release number, kernel version 
+    all available shells 
+    computer CPU information like processor type, speed etc 
+    memory information 
+    hard disk information like size of hard-disk, cache memory, model etc 
+    File system (Mounted) 
+---------------------------------
+
+Command/Shell script/Program name
+
+#Shell script:
+   system_config2.sh
+
+
+--------------------------------
+Output: 
+
+
+OS and version, release number, kernel version
+All available shells
+Computer CPU information like processor type, speed etc
+Memory information
+Hard disk information like size of hard-disk, cache memory, model etc
+File system (Mounted)
+
+
+
+
+-------------------
+Remarks if any:
+ ----------------------------------
+ ----------------------------------
+
+
